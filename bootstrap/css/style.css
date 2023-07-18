@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 .bg-teal , .btn-teal{
-    background-color: #051937 !important;
+    background-color: #000 !important;
 }
 .text-teal{
     color: #051937 !important;
@@ -43,7 +43,37 @@ html{
     align-content:center;
 }
 
+.dark-mode{
 
+    background-color: black;
+.navbar navbar-expand-sm navbar-dark bg-teal{
+    background-color: white !important;
+    color: black !important;
+}
+.carousel{
+    background-color: black;
+}
+
+    
+    .text-teal,.lead{
+        color: #fff!important;
+    }
+    .card {
+        background-color: black;
+        color: white;
+        border-color: #fff!important;
+       border-block-color: white;
+      }
+      .btn-teal{
+        background-color: #fff!important;
+        
+      }
+      .card-text{
+        color: #fff!important;
+      }
+  }
+  
+  
 
 
 

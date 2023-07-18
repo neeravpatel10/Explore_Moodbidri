@@ -47,6 +47,32 @@
                     <li class="nav-item px-3">
                         <a href="#video" class="nav-link">Video</a>
                     </li>
+                    <button id="curtainInput"class="btn-teal" onclick="myFunction() "> Dark mode</button>
+                 <script>   document.getElementById("curtainInput").addEventListener("click",
+  function(event) {
+    if (event.target.value === "Dark mode") {
+      event.target.value = "Light mode";
+    } else {
+      event.target.value = "Dark mode";
+    }
+  },
+  false
+                 );</script>
+                    <div id="google_translate_element"></div>
+
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
+                        </script>
+                        
+                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>                        
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
                 </ul>
             </div>
         </div>
@@ -221,7 +247,7 @@
                             <h3 class="card-title">Kateel Durga Parameshwari <br>Temple</h3>
                             <p class="card-text">Situated 20 Kms East of Mangaluru is the Durga Parameshwari Temple,
                                 located on an island in Nandini river. The chief deity is in the form of an udhbhava
-                                moorthi. The pillars of the temple bear beautiful sculptures.</p>
+                                moorthi.</p>
                             <button class="btn btn-teal btn-sm"><a
                                     href="https://karnatakatourism.org/tour-item/durga-parameshwari-temple/">More
                                     info</a></button>
@@ -329,7 +355,7 @@
                     <div class="card mt-3">
                         <img src="images/panambur-beach.jpg" class="img-fluid" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">Panambur Beach<br>Mangaluru</h3>
+                            <h3 class="card-title">Panambur Beach</h3>
                             <p class="card-text">12 Kms from Mangaluru city, to the left of the harbour and about 1 Km
                                 from NH-66 Panambur beach is one of the cleanest and well maintained beaches in
                                 Mangaluru. Panambur beach has wide range of sport and leisure activities like Jet ski,
@@ -500,7 +526,7 @@
                                     <div class="row text-center">
                                         <div class="col">
                                             <h5 class="display-4">
-                                                <span class="text-teal"></span> <marquee direction="right">Gallery</marquee>
+                                                <span class="text-teal"> <marquee direction="right">Gallery</marquee></span>
                                             </h5>
                                             
                                         </div>
@@ -540,13 +566,13 @@
                                             <img src="images/gommateshwara.jpg" class="img-fluid" alt="">
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="images/kadalakere.jpg" class="img-fluid" alt="">
+                                            <img src="images/kadalakere.jpg"  class="img-fluid" alt="">
                                         </div>
                                         <div class="col-md-3">
                                             <img src="images/manasa-amusement-park-mangalore-tourism-entry-fee-timings-holidays-reviews-header.jpg" class="img-fluid" alt="">
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="images/download.jpeg" class="img-fluid" alt="">
+                                            <img src="images/download.jpeg"  class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -595,7 +621,7 @@
                                                 
                                             </div>
                                             
-                                                <p>Copyright &copy;2023, Explore Moodabidri Pvt Ltd
+                                                <p class="lead">Copyright &copy;2023, Explore Moodabidri Pvt Ltd
                                                     <br/>All Rights Reserved Developed & Maintained by Patel Technologies
                                                 </p>
                                         </footer>
