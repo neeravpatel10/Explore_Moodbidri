@@ -1,0 +1,64 @@
+/* ADD YOUR CUSTOM STYLES */
+html{
+    scroll-behavior: smooth;
+}
+.bg-teal , .btn-teal{
+    background-color: #051937 !important;
+}
+.text-teal{
+    color: #051937 !important;
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 200px;
+}
+.btn-teal{
+
+ 
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid black;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.btn-teal:hover {
+    
+        color: #001F3F;
+        background-color: black ;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
